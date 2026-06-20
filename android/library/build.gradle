@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 android {
-    namespace 'com.dongyuzhao.chatfeed'
+    namespace 'com.dongyuzhao.feed'
     compileSdk 37
 
     defaultConfig {

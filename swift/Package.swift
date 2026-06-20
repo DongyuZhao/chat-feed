@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "ChatFeedApple",
+    name: "FeedApple",
     platforms: [
         .iOS("26.0"),
         .macOS("26.0"),
@@ -12,19 +12,19 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "ChatFeedApple",
-            targets: ["ChatFeedApple"]
+            name: "FeedApple",
+            targets: ["FeedApple"]
         ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "ChatFeedApple"
+            name: "FeedApple"
         ),
         .testTarget(
-            name: "ChatFeedAppleTests",
-            dependencies: ["ChatFeedApple"]
+            name: "FeedAppleTests",
+            dependencies: ["FeedApple"]
         ),
     ],
     swiftLanguageModes: [.v6]
