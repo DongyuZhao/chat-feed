@@ -1,6 +1,6 @@
-# feed
+# Chat Feed
 
-Monorepo configuration for feed clients across Apple, Android, and web.
+Monorepo configuration for Chat Feed clients across Apple, Android, and web.
 
 ## Layout
 

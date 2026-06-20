@@ -1,7 +1,7 @@
 {
-  "name": "feed-web",
+  "name": "chat-feed-web",
   "version": "1.0.0",
-  "description": "React 19 web configuration for feed",
+  "description": "React 19 web configuration for Chat Feed",
   "main": "index.js",
   "directories": {
     "test": "test"
