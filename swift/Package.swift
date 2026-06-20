@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "swift-chat-feed-ui",
+    name: "swift-chat-feed",
     platforms: [
         .iOS("26.0"),
         .macOS("26.0"),
@@ -12,19 +12,19 @@ let package = Package(
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "SwiftChatFeedUI",
-            targets: ["SwiftChatFeedUI"]
+            name: "SwiftChatFeed",
+            targets: ["SwiftChatFeed"]
         ),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "SwiftChatFeedUI"
+            name: "SwiftChatFeed"
         ),
         .testTarget(
-            name: "SwiftChatFeedUITests",
-            dependencies: ["SwiftChatFeedUI"]
+            name: "SwiftChatFeedTests",
+            dependencies: ["SwiftChatFeed"]
         ),
     ],
     swiftLanguageModes: [.v6]
