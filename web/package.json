@@ -1,0 +1,21 @@
+{
+  "name": "chat-feed-web",
+  "version": "1.0.0",
+  "description": "React 19 web configuration for chat-feed",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  }
+}
