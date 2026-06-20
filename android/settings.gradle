@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = 'chat-feed-android'
+rootProject.name = 'compose-chat-feed'
 include(':library')

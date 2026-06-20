@@ -1,5 +1,5 @@
 {
-  "name": "chat-feed-web",
+  "name": "react-chat-feed",
   "version": "1.0.0",
   "description": "React 19 web configuration for Chat Feed",
   "main": "index.js",
