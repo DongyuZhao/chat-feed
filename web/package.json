@@ -1,0 +1,23 @@
+{
+  "name": "react-chat-feed",
+  "version": "1.0.0",
+  "description": "React 19 and TypeScript scaffolding for Chat Feed",
+  "type": "module",
+  "private": true,
+  "main": "dist/library/index.js",
+  "types": "dist/library/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc && mkdir -p dist/sample && cp src/sample/index.html dist/sample/index.html",
+    "test": "node --test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.17",
+    "@types/react-dom": "19.2.3",
+    "typescript": "6.0.3"
+  }
+}
